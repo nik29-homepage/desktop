@@ -1,3 +1,45 @@
+@font-face {
+  font-family: "Minercraftory";
+  src: url("https://nik29-homepage.github.io/Minercraftory.eot?") format("eot"),
+       url("https://nik29-homepage.github.io/Minercraftory.woff") format("woff"),
+       url("https://nik29-homepage.github.io/Minercraftory.ttf")  format("truetype"),
+       url("https://nik29-homepage.github.io/Minercraftory.svg#Minercraftory") format("svg");
+}
+
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
+  margin: 0;
+  font-family: "Minercraftory";
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  background-image: url("https://nik29-homepage.github.io/background-2.png");
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 16px;
+  font-size: 64px;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  margin: 0;
   background-image: url("https://nik29-homepage.github.io/desktop/background.png");
+  background-size: cover;
+  filter: brightness(50%);
+  position: relative;
+}
+
+.list{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  text-align: center;
 }
