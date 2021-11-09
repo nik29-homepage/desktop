@@ -19,7 +19,7 @@ body {
 
 a {
   text-decoration: none;
-  background-image: url("https://nik29-homepage.github.io/background-2.png");
+  background-image: url("https://nik29-homepage.github.io/background-1.png");
   -webkit-background-clip: text;
   color: transparent;
   margin: 16px;
@@ -41,5 +41,11 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-  text-align: center;
+}
+
+span {
+  font-size: 16px;
+  background-image: url("https://nik29-homepage.github.io/background-2.png");
+  -webkit-background-clip: text;
+  color: transparent;
 }
